@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9ba5c462a3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
         <div class="container">
+            <!-- name and services -->
             <nav class="name">
                 <img  width="500" height="300" src="images/e641b410-431c-4e4a-8fd4-b3feaf290075.webp" class="logo">
                 <ul>
@@ -23,8 +25,155 @@
 
                 </ul>
             </nav>
+
+            <!-- About me -->
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi ,I am <span>Vinothini</span> 
+                <br>from india</h1></h1>
+            </div>
         </div>
     </div>
+
+    <!-- About -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <!-- photo need upload -->
+                    <img src="images/WhatsApp Image 2025-03-20 at 11.30.48_3866b81c-fotor-2025032012751.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor temporibus voluptas repellat quibusdam. Quo, asperiores maxime beatae ut commodi suscipit a harum obcaecati, perferendis, ad sunt nam tenetur quidem ipsa.
+                    </p>
+
+                    <div class="tab-titls">
+                        <!-- 3 title -->
+                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        
+                         <p class="tab-links"  onclick="opentab('education')">Education</p>   
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Designinig Web/App Interfaces</li>
+                            <li><span>Web Development</span><br> Web app Development </li>
+                            <li><span>App Development</span><br> Building Android/iOs apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Dsa </span><br> Programing Pathashala</li>
+                            <li><span>Frontend Development</span><br> Algo-Camp </li>
+                            <li><span>Comprehensive React Course</span><br> Namaste React</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+             
+        </div>
+     </div>
+    
+
+     <!-- services -->
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+
+            <div class="services-list">
+
+                  <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor excepturi nulla hic debitis sequi eum porro, quas suscipit esse rerum perferendis voluptate inventore sunt. Natus porro possimus voluptatum dolores?</p>
+                    <a href="#">Learn More</a>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor excepturi nulla hic debitis sequi eum porro, quas suscipit esse rerum perferendis voluptate inventore sunt. Natus porro possimus voluptatum dolores?</p>
+                    <a href="#">Learn More</a>
+                  </div>
+                  <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor excepturi nulla hic debitis sequi eum porro, quas suscipit esse rerum perferendis voluptate inventore sunt. Natus porro possimus voluptatum dolores?</p>
+                    <a href="#">Learn More</a>
+                  </div>
+
+            </div>
+
+        </div>
+      </div>
+
+      <!-- portfolio -->
+       <!-- projects -->
+       <div id="portfolio">
+         <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+                <div class="work">
+                     <img width="00" height="" src="images/Screenshot 2024-10-21 175856.png">
+                     <div class="layer">
+                        <h3>Netflix-App</h3>
+                        <p>A Netflix-inspired project built using React, Vite, and Redux Toolkit for state management, with features like user authentication, movie suggestions, and browsing capabilities. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                     </div>
+                </div>
+               
+               <div class="work">
+                <img src="images/foodAPp.png">
+                <div class="layer">
+                    <h3>Food Delivery App</h3>
+                    <p>Order food from the comfort of your home. We showcase the latest restaurants available in your city, along with all the details. Pick a dish, add it to your cart, place an order, and get it delivered!
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+              </div>
+              <div class="work">
+                <img src="images/yt-screen.png">
+                <div class="layer">
+                    <h3>Youtube-Clone</h3>
+                    <p>This project is a clone of the popular video-sharing platform YouTube. It is built using modern front-end technologies.A replica of the YouTube platform, including its UI design and functionalities.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+              </div>
+              <div class="work">
+                <img src="images/324165679-a6fc3159-c0e7-4cb7-af9b-6f30eff46855.png">
+                <div class="layer">
+                    <h3>MovieSearch-App</h3>
+                    <p>Welcome to the Movie Search App! This application allows users to search for movies and view detailed information about each movie.Search for movies by title.View detailed information about each movie, including plot, cast, and ratings</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>
+              </div>
+            </div>
+         </div>
+       </div>
+
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+            tablink.classList.remove("active-link")
+             }
+             for(tabcontent of tabcontents)
+            {
+            tabcontent.classList.remove("active-tab")
+             }
+             event.currentTarget.classList.add("active-link");
+             document.getElementById(tabname).classList.add("active-tab")
+        }
+     </script>
     
 </body>
 </html>
