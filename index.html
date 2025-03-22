@@ -13,17 +13,19 @@
             <!-- name and services -->
             <nav class="name">
                 <img  width="500" height="300" src="images/e641b410-431c-4e4a-8fd4-b3feaf290075.webp" class="logo">
-                <ul>
-                    <li> <a href="#">Home</a> </li>
-                    <li> <a href="#">About</a> </li>
-                    <li> <a href="#">Services</a> </li>
+                <ul id="sidemenu">
 
-                    <li> <a href="#">Portfolio</a> </li>
+                    <li> <a href="#header">Home</a> </li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#services">Services</a> </li>
 
-                    <li> <a href="#">contact</a> </li>
+                    <li> <a href="#portfolio">Portfolio</a> </li>
 
+                    <li> <a href="#contact">contact</a> </li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
 
                 </ul>
+                <i class="fa-solid fa-c:\Users\97152\Desktop\photo\WhatsApp Image 2025-03-22 at 14.26.21_19784841.jpgbars"  onclick="openmenu()"></i>
             </nav>
 
             <!-- About me -->
@@ -41,13 +43,13 @@
             <div class="row">
                 <div class="about-col-1"> 
                     <!-- photo need upload -->
-                    <img src="images/WhatsApp Image 2025-03-20 at 11.30.48_3866b81c-fotor-2025032012751.png" alt="">
+                    <img src="images/img2.jpg" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
 
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor temporibus voluptas repellat quibusdam. Quo, asperiores maxime beatae ut commodi suscipit a harum obcaecati, perferendis, ad sunt nam tenetur quidem ipsa.
+                        I am a passionate app designer with a keen eye for aesthetics and a deep understanding of user experience. With a strong foundation in UI/UX principles, I specialize in designing intuitive, visually appealing, and user-friendly mobile applications that enhance engagement and functionality. My expertise lies in creating seamless digital experiences by leveraging design tools like Figma, Adobe XD, and Sketch, ensuring that every interface is both aesthetically pleasing and easy to navigate. I thrive on transforming complex ideas into simple, elegant, and interactive designs that prioritize usability, accessibility, and innovation. My goal is to craft mobile applications that not only look stunning but also provide a smooth and meaningful experience for users across different platforms.
                     </p>
 
                     <div class="tab-titls">
@@ -90,19 +92,19 @@
                   <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor excepturi nulla hic debitis sequi eum porro, quas suscipit esse rerum perferendis voluptate inventore sunt. Natus porro possimus voluptatum dolores?</p>
+                    <p>As a frontend developer, I specialize in crafting visually appealing, highly responsive, and user-friendly web applications using modern technologies like React, JavaScript, and Tailwind CSS to ensure a seamless user experience.</p>
                     <a href="#">Learn More</a>
                   </div>
                   <div>
                     <i class="fa-solid fa-crop"></i>
                     <h2>UI/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor excepturi nulla hic debitis sequi eum porro, quas suscipit esse rerum perferendis voluptate inventore sunt. Natus porro possimus voluptatum dolores?</p>
+                    <p>With a strong foundation in UI/UX principles, I focus on designing and developing intuitive web interfaces that not only look aesthetically pleasing but also enhance usability, accessibility, and overall performance to meet both user expectations and business goals.</p>
                     <a href="#">Learn More</a>
                   </div>
                   <div>
                     <i class="fa-brands fa-app-store-ios"></i>
                     <h2>App Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor excepturi nulla hic debitis sequi eum porro, quas suscipit esse rerum perferendis voluptate inventore sunt. Natus porro possimus voluptatum dolores?</p>
+                    <p>As an app designer, I specialize in crafting intuitive, visually appealing, and user-friendly mobile applications that prioritize seamless navigation, accessibility, and a modern aesthetic to enhance the overall user experience.</p>
                     <a href="#">Learn More</a>
                   </div>
 
@@ -119,41 +121,82 @@
 
             <div class="work-list">
                 <div class="work">
-                     <img width="00" height="" src="images/Screenshot 2024-10-21 175856.png">
+                     <img height="400" width="500"   src="images/Screenshot 2024-10-21 175856.png">
                      <div class="layer">
                         <h3>Netflix-App</h3>
                         <p>A Netflix-inspired project built using React, Vite, and Redux Toolkit for state management, with features like user authentication, movie suggestions, and browsing capabilities. </p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
                      </div>
                 </div>
                
                <div class="work">
-                <img src="images/foodAPp.png">
+                <img src="images/foodAPp.png" width="500" height="400">
                 <div class="layer">
                     <h3>Food Delivery App</h3>
                     <p>Order food from the comfort of your home. We showcase the latest restaurants available in your city, along with all the details. Pick a dish, add it to your cart, place an order, and get it delivered!
                     </p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="https://react-food-delievery-app.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                  </div>
               </div>
               <div class="work">
-                <img src="images/yt-screen.png">
+                <img src="images/yt-screen.png" width="500" height="400">
                 <div class="layer">
                     <h3>Youtube-Clone</h3>
                     <p>This project is a clone of the popular video-sharing platform YouTube. It is built using modern front-end technologies.A replica of the YouTube platform, including its UI design and functionalities.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a class="demo" href="https://youtube-react-ashen.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                  </div>
               </div>
               <div class="work">
-                <img src="images/324165679-a6fc3159-c0e7-4cb7-af9b-6f30eff46855.png">
+                <img height="400" width="480" src="images/324165679-a6fc3159-c0e7-4cb7-af9b-6f30eff46855.png">
                 <div class="layer">
                     <h3>MovieSearch-App</h3>
                     <p>Welcome to the Movie Search App! This application allows users to search for movies and view detailed information about each movie.Search for movies by title.View detailed information about each movie, including plot, cast, and ratings</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="https://movieapp-6n1vzqmly-vinothinis-projects.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                  </div>
               </div>
             </div>
+
+            <!-- see more -->
+             <a href="#" class="btn"> See More</a>
+
          </div>
+       </div>
+
+          <!-- contact -->
+       <div id="contact">
+        <div class="container">
+
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>Email : <i class="fa-solid fa-envelope"></i> vinothiniciet@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0582562501</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vinothini-seenivasan-b5738a76/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/vinothiniseenivasan"><i class="fa-brands fa-github"></i></i></a>
+                       
+                    </div>
+                    <a href="https://github.com/vinothiniseenivasan/CV"  download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                     <form name="submit-to-google-sheet">
+                       
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                     </form>
+
+                     <!-- display msg -->
+                      <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>CopyRight @ Vinothini.  <i class="fa-solid fa-heart"></i></p>
+        </div>
        </div>
 
       <script>
@@ -174,6 +217,43 @@
              document.getElementById(tabname).classList.add("active-tab")
         }
      </script>
+
+     <script>
+
+        var side = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            side.style.right = "0";
+        }
+        
+        function closemenu()
+        {
+            side.style.right = "-200px";
+        }
+     </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx_O-2-pYPXKIV6kNW-9Bc6NT9cRRA7N2fT2BObRhYuc-CJH-UQNrn3q2jGc5R7Xp_LDA/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg");
+
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML =  "Message sent successfully";
+            setTimeout(function(){
+                msg.innerHTML = "";
+            } , 5000);
+
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
     
 </body>
 </html>
